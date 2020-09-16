@@ -12,17 +12,7 @@ public class Product {
 		return productQuantity;
 	}
 
-	public void setProductQuantity(int productQuantity) {
-		this.productQuantity = productQuantity;
-	}
-
-	public double getProductDiscount() {
-		return productDiscount;
-	}
-
-	public void setProductDiscount(double productDiscount) {
-		this.productDiscount = productDiscount;
-	}
+	
 
 	public Product(String productName, int productId, double ratePerUnit, int productType, int productQuantity,
 			int productDiscount) {
@@ -85,6 +75,16 @@ public class Product {
 	public void setRatePerUnit(double ratePerUnit) {
 		this.ratePerUnit = ratePerUnit;
 	}
-	
+	public void setProductQuantity(int productQuantity) {
+		this.productQuantity = productQuantity;
+	}
+
+	public double getProductDiscount() {
+		return productDiscount;
+	}
+
+	public void setProductDiscount(double productDiscount) {
+		this.productDiscount = productDiscount;
+	}
 	
 }

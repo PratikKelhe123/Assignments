@@ -6,16 +6,13 @@ public class ManageProduct {
 		
 		double discount=0.0;
 		
-		int quantity;
 		
 //		if(product.getRatePerUnit() >500 && product.getRatePerUnit() <=1000) {
 //			discount = 0.10;
 //		}	else if(product.getRatePerUnit() >1000) {
 //			discount = 0.15;
 //		} 
-		System.out.println("here");
-		System.out.println(productList[0].getProductName());
-		for(Product product : productList) {
+			for(Product product : productList) {
 
 			if(product.getRatePerUnit() >500 && product.getRatePerUnit() <=1000) {
 				discount = 0.10;

@@ -40,8 +40,8 @@ public class Application {
 		mgr.showProductForEach(productList);
 		mgr.showProducts(productList);
 		
-		Product desktop = new Product("LED TV",1010,23000.00,2,5,2);
-		Product ups = new Product("LED TV",1010,23000.00,2,3,1);
+		Product desktop = new Product("desktop",1010,23000.00,2,5,2);
+		Product ups = new Product("ups",1010,10000.00,2,3,1);
 		
 		Product[] productList2 = new Product[2];
 		Product[] productList3 = new Product[2];
@@ -49,6 +49,7 @@ public class Application {
 		productList2[0] = desktop;
 		productList2[1] = ups;
 		
+//		System.out.println("hi"+productList2[0].getProductName());
 		
 //		Product[] prdouctList3 = new Product[2];
 		
